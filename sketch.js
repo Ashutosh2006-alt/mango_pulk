@@ -85,6 +85,12 @@ function draw() {
   detectollision(stone1, mango8);
   detectollision(stone1, mango9);
   detectollision(stone1, mango10);
+
+  textSize(17);
+  fill("black");
+  strokeWeight(0)
+  stroke("black");
+  text("press space to again throw the rock", 5, height - 10)
 }
 
 function mouseDragged() {
